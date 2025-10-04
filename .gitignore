@@ -1,17 +1,5 @@
-# Ignore model weights
+dataset/
+dataset.zip
 *.h5
 *.pth
-
-# Ignore dataset folder
-dataset/
-
-# Ignore Python cache
 __pycache__/
-
-git status              # Check current status of files
-git add <files>         # Stage files to save (e.g. git add app.py)
-git commit -m "message" # Commit changes with a message
-git push origin main    # Upload changes to GitHub
-
-dataset/
-dataset.zip/
